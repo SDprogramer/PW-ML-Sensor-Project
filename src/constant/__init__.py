@@ -12,3 +12,5 @@ MONGO_DB_URL = "mongodb+srv://sd:<your-password>@cluster0.pff51.mongodb.net/?ret
 
 MODEL_FILE_NAME = ""
 MODEL_FILE_EXTENSION = ""
+
+artifact_folder = "artifacts"
