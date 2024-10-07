@@ -1,16 +1,17 @@
 import os
 
 
-AWS_S3_BUCKET_NAME = ""
-MONGO_DATABSE_NAME = "PwSkills"
+AWS_S3_BUCKET_NAME = "wafer-fault"
+MONGO_DATABASE_NAME = "pwskills"
 MONGO_COLLECTION_NAME = "waferfault"
 
 
-TARGET_COLUMN = "quality" ## 0 or -1
-MONGO_DB_URL = "mongodb+srv://sd:<your-password>@cluster0.pff51.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0"
+TARGET_COLUMN = "quality"
+MONGO_DB_URL= "mongodb+srv://sd:12345@cluster0.pff51.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0"
 
 
-MODEL_FILE_NAME = ""
-MODEL_FILE_EXTENSION = ""
+MODEL_FILE_NAME = "model"
+MODEL_FILE_EXTENSION = ".pkl"
+
 
 artifact_folder = "artifacts"
