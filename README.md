@@ -1,1 +1,1 @@
-### This is my Machine Learning Sensor Project ###
+### This is the Machine Learning Sensor Project ###
