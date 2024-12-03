@@ -163,3 +163,5 @@ cython_debug/
 
 # Txt files
 Sensor Project.txt
+logger.ipynb
+exception.ipynb
